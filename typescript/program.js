@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var library_js_1 = require("./library.js");
+var a = 5;
+var b = 3;
+var c = 7;
+var d = 4;
+var e = 2;
+var f = 10;
+var x = true;
+var y = false;
+var z = true;
+var isAdmin = false;
+console.log((0, library_js_1.orFunc)((0, library_js_1.andFunc)((0, library_js_1.greaterThan)((0, library_js_1.add)(a, (0, library_js_1.multiply)(b, c)), (0, library_js_1.subtract)(d, e)), x), y));
+console.log((0, library_js_1.andFunc)((0, library_js_1.andFunc)((0, library_js_1.lessEqual)((0, library_js_1.multiply)((0, library_js_1.subtract)(a, b), (0, library_js_1.add)(c, d)), e), z), (0, library_js_1.notFunc)(x)));
+console.log((0, library_js_1.orFunc)((0, library_js_1.equal)((0, library_js_1.mod)((0, library_js_1.add)((0, library_js_1.add)(a, b), c), d), 0), (0, library_js_1.andFunc)((0, library_js_1.greaterThan)(f, e), isAdmin)));
+console.log((0, library_js_1.andFunc)((0, library_js_1.notFunc)((0, library_js_1.orFunc)(x, y)), (0, library_js_1.greaterThan)((0, library_js_1.multiply)(a, a), (0, library_js_1.multiply)(b, c))));
